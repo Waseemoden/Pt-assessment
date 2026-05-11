@@ -247,8 +247,8 @@ export default function App(){
           <Field label='"When was the last time you felt truly confident in your body?"' type="textarea" value={eq1} onChange={e=>setEq1(e.target.value)} placeholder="Their answer..."/>
           <Field label='"If nothing changes a year from now — how does that feel?"' type="textarea" value={eq2} onChange={e=>setEq2(e.target.value)} placeholder="Their answer..."/>
           <Field label='"What do you tell yourself when you look in the mirror?"' type="textarea" value={eq3} onChange={e=>setEq3(e.target.value)} placeholder="Their answer..."/>
-          <Field label="\"You've probably tried before. What made you stop?\"" type="textarea" value={eq4} onChange={e=>setEq4(e.target.value)} placeholder="Their answer..."/>
-          <Field label="\"If I gave you your dream body tomorrow — what's the first thing you'd do?\"" type="textarea" value={eq5} onChange={e=>setEq5(e.target.value)} placeholder="Their answer..."/>
+          <Field label={`"You've probably tried before. What made you stop?"`} type="textarea" value={eq4} onChange={e=>setEq4(e.target.value)} placeholder="Their answer..."/>
+          <Field label={`"If I gave you your dream body tomorrow — what's the first thing you'd do?"`} type="textarea" value={eq5} onChange={e=>setEq5(e.target.value)} placeholder="Their answer..."/>
           <Field label='"Who else is this for, other than yourself?"' type="textarea" value={eq6} onChange={e=>setEq6(e.target.value)} placeholder="Their answer..."/>
         </div>}
 
